@@ -1,8 +1,137 @@
 .App {
+  color: #433414;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
+h1 {
+  color: rgb(235, 60, 73);
+}
+
+h2 {
+  color: white;
+  font-size: 36px;
+  margin: auto;
+  width: 90%;
+  padding: 200px 0;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://images.getbento.com/accounts/63e50d3a0270f2fe2c25af59b44fc235/media/images/50714PHIL_Side-1.jpg?fit=max&w=1800&auto=format,compress');
+  background-size: cover;
+  background-position: center;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 27px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #433414;
+  background: white;
+  border: 1px solid #433414;
+  border-radius: 7px;
+  padding: 7px 10px;
+  margin-left: 20px;
+  transition: ease-in-out .4s;
+}
+
+.nav-links a:hover {
+  background: #433414;
+  color: white;
+}
+
+.home-image img {
+  width: 90%;
+  max-height: 300px;
+  object-fit: cover;
+  filter: brightness(70%);
+}
+
+.pizza-form {
+  margin: 27px auto;
+  border: 1px solid #433414;
+  width: 80%;
+}
+.toppings {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.topping-choices {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text-box {
+  padding: 7px 27px;
+}
+
+button {
+  color: #433414;
+  font-size: 20px;
+  padding: 7px 200px;
+  background: white;
+  border: 1px solid #433414;
+  border-radius: 7px;
+  transition: ease-in-out .4s;
+}
+
+button:hover {
+  background: #433414;
+  color: white;
+}
+
+.inputs {
+  margin: 27px 0;
+}
+
+.size {
+  margin-bottom: 27px;
+}
+
+.sauce {
+  margin-bottom: 27px;
+}
+
+.toppings {
+  margin-bottom: 27px;
+}
+
+.special {
+  margin-bottom: 27px;
+}
+
+.name {
+  margin-bottom: 27px;
+}
+
+.submit-btn {
+  margin-bottom: 27px;
+}
+
+.labels {
+  margin: 0 1px 27px 1px; 
+  text-align: left;
+  padding: 17px 0 17px 10px;
+  border-radius: 7px;
+  background: #59410e;
+  color: white;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +164,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
